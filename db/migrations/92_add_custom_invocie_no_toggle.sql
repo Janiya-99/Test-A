@@ -1,0 +1,1 @@
+ALTER TABLE rules ADD COLUMN advanced_invoice_number TINYINT(1) DEFAULT 0 NULL AFTER advanced_invoice_generation

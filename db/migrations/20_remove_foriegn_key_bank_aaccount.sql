@@ -1,0 +1,1 @@
+ALTER TABLE `company_bank_accounts` DROP FOREIGN KEY `fk_company_bank_accounts_branch`;

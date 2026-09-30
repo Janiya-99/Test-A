@@ -1,0 +1,2 @@
+ALTER TABLE customer
+ADD COLUMN credit_limit DECIMAL(15, 2) DEFAULT 0.00;

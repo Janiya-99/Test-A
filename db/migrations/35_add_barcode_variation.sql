@@ -1,0 +1,6 @@
+ALTER TABLE item_variations
+ADD COLUMN barcode VARCHAR(255) DEFAULT NULL;
+ALTER TABLE quotation
+ADD COLUMN Extra_Charge DECIMAL(15, 2) DEFAULT 0;
+ALTER TABLE quotation
+ADD COLUMN Extra_Charge_Label VARCHAR(255) DEFAULT 'Extra Charge';

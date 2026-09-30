@@ -1,0 +1,1 @@
+ALTER TABLE employee ADD COLUMN Type VARCHAR(20) DEFAULT 'salesman';

@@ -1,0 +1,7 @@
+node_modules/
+/uploads
+advance_report_debug.log
+.env
+.env.*
+!.env.example
+

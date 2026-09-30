@@ -1,0 +1,2 @@
+ALTER TABLE `wallet` ADD COLUMN `project_id` INT NULL DEFAULT NULL;
+ALTER TABLE `wallet` ADD CONSTRAINT `fk_wallet_project` FOREIGN KEY (`project_id`) REFERENCES `pro` (`id`) ON DELETE SET NULL ON UPDATE CASCADE;

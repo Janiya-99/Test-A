@@ -1,0 +1,1 @@
+ALTER TABLE customer_credit_log ADD COLUMN receipt_number VARCHAR(100) DEFAULT NULL;

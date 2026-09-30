@@ -1,0 +1,2 @@
+ALTER TABLE rules ADD COLUMN vat_type VARCHAR(20) DEFAULT 'exclusive' NULL;
+ALTER TABLE invoice ADD COLUMN Vat_Type VARCHAR(20) DEFAULT 'exclusive' NULL;

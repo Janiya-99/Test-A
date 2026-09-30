@@ -1,0 +1,3 @@
+ALTER TABLE stock_card
+ADD COLUMN Variation_Id INT(11) NULL DEFAULT NULL
+AFTER Item_idItem;

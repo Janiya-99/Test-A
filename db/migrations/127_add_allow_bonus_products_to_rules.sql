@@ -1,0 +1,1 @@
+ALTER TABLE rules ADD COLUMN allow_bonus_products TINYINT(1) DEFAULT 0 NULL;

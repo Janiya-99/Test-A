@@ -1,0 +1,3 @@
+ALTER TABLE branch
+ADD COLUMN isMainBranch TINYINT(1) DEFAULT 0
+AFTER Status;

@@ -1,0 +1,1 @@
+ALTER TABLE rules ADD COLUMN gemini_api_key VARCHAR(255) DEFAULT NULL;

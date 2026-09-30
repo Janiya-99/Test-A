@@ -1,0 +1,1 @@
+ALTER TABLE grn_has_item ADD COLUMN Bonus_Qty VARCHAR(45) DEFAULT '0';

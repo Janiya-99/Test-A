@@ -1,0 +1,5 @@
+ALTER TABLE rules
+ADD COLUMN salesman_enabled TINYINT(1) DEFAULT 0 NULL,
+ADD COLUMN salesman_required TINYINT(1) DEFAULT 0 NULL,
+ADD COLUMN Explicit_Stock_Check TINYINT(1) DEFAULT 0 NULL;
+
